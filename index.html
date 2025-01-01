@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="مرحبًا بك في محفظتي، اكتشف عملي ومهاراتي كمصمم جرافيكي.">
+    <title>محفظتي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body lang="ar">
+    <div class="language-selector">
+        <select onchange="changeLanguage(this.value)">
+            <option value="ar" selected>🇸🇦</option>
+            <option value="en">🇺🇸</option>
+            <option value="ru">🇷🇺</option>
+        </select>
+    </div>
+
+    <header>
+        <h1 id="title">مرحبًا بك في محفظتي</h1>
+        <p id="description">اكتشف عملي ومهاراتي</p>
+    </header>
+
+    <nav>
+        <a href="#about" id="about-link" tabindex="0">عنّي</a>
+        <a href="#projects" id="projects-link" tabindex="0">المشاريع</a>
+        <a href="#skills" id="skills-link" tabindex="0">المهارات</a>
+        <a href="#cv" id="cv-link" tabindex="0">السيرة الذاتية</a>
+        <a href="#contact" id="contact-link" tabindex="0">اتصل بي</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section active">
+            <h1 id="about-title">عنّي</h1>
+            <p id="about-text">أنا مصمم جرافيكي شغوف، متخصص في إنشاء تصاميم إبداعية باستخدام برامج مثل فوتوشوب، الالستريتور، وكانفا. هدفي هو تحويل الأفكار إلى واقع مرئي مذهل.</p>
+            <div class="images-container">
+                <div class="image clickable-image">
+                    <a href="https://linktr.ee/GraphicDesignerw" target="_blank" rel="noopener noreferrer">
+                        <img src="https://scontent.ftlm1-2.fna.fbcdn.net/v/t39.30808-6/469891395_122106962570660711_6698525726725661191_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=he-9NgerAOAQ7kNvgF8a80d&_nc_zt=23&_nc_ht=scontent.ftlm1-2.fna&_nc_gid=A1ctx0w206vuqR4zlv9YU6Y&oh=00_AYAtGMeuSCmD5JqKc9btuYeF1a18qLSrJ0073KIz7JIaCQ&oe=6779D137" alt="مصمم جرافيك" loading="lazy">
+                    </a>
+                </div>
+                <div class="image clickable-image">
+                    <a href="https://linktr.ee/GraphicDesignerw" target="_blank" rel="noopener noreferrer">
+                        <img src="https://scontent.ftlm1-2.fna.fbcdn.net/v/t39.30808-6/444481523_983365080081280_4611924480765887100_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=czq0B-7P1tYQ7kNvgE7t3HB&_nc_zt=23&_nc_ht=scontent.ftlm1-2.fna&_nc_gid=Au3jtvylf3c1R7YuLVfCvrI&oh=00_AYApV_138rkZUs2o4B5ppdF4JtQ_UP5JDXiyT6mIzs3dgA&oe=6779EC34" alt="صورة جديدة" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>المشاريع</h2>
+            <p>هنا بعض المشاريع التي قمت بتنفيذها:</p>
+            <div class="projects-container">
+                <div class="project">
+                    <a href="https://www.behance.net/gallery/213716759/CAROUSEL-SOCIAL-MEDIA" target="_blank" rel="noopener noreferrer">
+                        <img src="https://images.unsplash.com/photo-1613909207039-6b173b755cc1?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="تصميم جرافيكي" loading="lazy">
+                        <h3>CAROUSEL SOCIAL MEDIA</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://www.behance.net/gallery/206719713/logo-mockup-3d" target="_blank" rel="noopener noreferrer">
+                        <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="تصميم شعار" loading="lazy">
+                        <h3>Logo Mockup 3D</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://www.behance.net/gallery/191990551/_" target="_blank" rel="noopener noreferrer">
+                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="ألوان وتصميم" loading="lazy">
+                        <h3>Project 3</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>المهارات</h2>
+            <p>هنا بعض المهارات التي أتمتع بها:</p>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>تصميم الشعارات</h3>
+                    <p>تصميم شعارات فريدة تعبر عن الهوية البصرية للعلامة التجارية.</p>
+                </div>
+                <div class="skill">
+                    <h3>تحرير الصور</h3>
+                    <p>تحسين الصور وإجراء التعديلات اللازمة باستخدام Photoshop.</p>
+                </div>
+                <div class="skill">
+                    <h3>تصميم الإنفوجرافيك</h3>
+                    <p>إنشاء تصاميم مرئية لجعل البيانات سهلة الفهم.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv" class="section">
+            <h2>سيرتي الذاتية</h2>
+            <p>
+                أنا مصمم جرافيكي مبدع ومحترف، أتمتع بخبرة تزيد عن 3 سنوات في مجال التصميم الجرافيكي. أعمل بشكل أساسي على برامج مثل **فوتوشوب**، **الالستريتور**، و**كانفا** لإنشاء تصاميم جذابة وفعالة تلبي احتياجات العملاء.
+            </p>
+            <p>
+                خلال مسيرتي المهنية، قمت بإنشاء العديد من التصاميم المميزة مثل الشعارات، البنرات، الكتيبات، والمواد التسويقية. أنا أؤمن بقوة التصميم في نقل الرسائل بشكل مرئي وفعّال، وأحرص دائمًا على تقديم أعمال إبداعية وعالية الجودة.
+            </p>
+            <h3>المهارات الرئيسية:</h3>
+            <ul>
+                <li>تصميم الشعارات والهويات البصرية.</li>
+                <li>إنشاء البنرات والملصقات الإعلانية.</li>
+                <li>تصميم الكتيبات والبروشورات.</li>
+                <li>تحرير الصور وتحسينها باستخدام فوتوشوب.</li>
+                <li>إنشاء تصاميم تفاعلية باستخدام كانفا.</li>
+            </ul>
+            <p>
+                أنا دائمًا أبحث عن تحديات جديدة وأستمتع بتعلم تقنيات تصميم حديثة لتحسين مهاراتي وتقديم أفضل الحلول لعملائي. إذا كنت تبحث عن مصمم جرافيكي مبدع وملتزم، فلا تتردد في الاتصال بي!
+            </p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>اتصل بي</h2>
+            <p>هل ترغب في العمل معي؟ تواصل معي عبر التليجرام:</p>
+            <div class="contact-form">
+                <a href="https://t.me/GraphicDesignerw0" target="_blank" rel="noopener noreferrer" class="telegram-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" width="24" height="24">
+                    تواصل معي على التليجرام
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Graphic Designrw. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <button class="cv-btn" onclick="window.close()">✕</button> <!-- تغيير النص إلى رمز X -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
